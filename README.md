@@ -64,9 +64,9 @@
    - ✅ snake_case
 
 ### 💡 Daily Challenges
-- [ ] Install Python 3.x successfully
-- [ ] Set up VS Code with Python extension
-- [ ] Run your first "Hello World" program
+- [x] Install Python 3.x successfully
+- [x] Set up VS Code with Python extension
+- [x] Run your first "Hello World" program
 - [ ] Create 5 variables using different naming conventions
 - [ ] Write comments explaining each variable
 
