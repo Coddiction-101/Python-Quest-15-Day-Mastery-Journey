@@ -1,6 +1,3 @@
-# Python-Quest-15-Day-Mastery-Journey
-Transform from Python Newbie to Professional Developer in 15 Days Complete daily quests, build real projects, and level up your coding skills! 🚀
-
 # 🐍 Python Quest: 15-Day Mastery Journey
 
 > **Transform from Python Newbie to Professional Developer in 15 Days**
@@ -1051,4 +1048,1146 @@ Transform from Python Newbie to Professional Developer in 15 Days Complete daily
       - Rename category
       - View category totals
 
-   C. Budget Features
+   C. Budget Features:
+      - Set monthly budget
+      - Track spending vs budget
+      - Budget alerts (80%, 90%, 100%)
+      - Budget by category
+      - Savings calculation
+
+   D. Analytics & Reports:
+      - Total expenses (overall, monthly, yearly)
+      - Category-wise breakdown (pie chart data)
+      - Top spending categories
+      - Average daily/weekly/monthly expense
+      - Expense trends over time
+      - Export report to CSV/PDF
+
+   E. File Operations:
+      - Auto-save after each change
+      - Backup data (create backup file)
+      - Restore from backup
+      - Export data (JSON, CSV)
+      - Import expenses from CSV
+
+3. Error Handling:
+   - File not found (create new)
+   - Corrupted JSON (restore backup)
+   - Invalid amount (negative/non-numeric)
+   - Invalid date format
+   - Duplicate expense ID
+
+4. Data Validation:
+   - Amount > 0
+   - Valid date format
+   - Valid category
+   - Email format (for user)
+```
+
+**Bonus Features:**
+- Multi-user support
+- Password protection
+- Recurring expenses
+- Income tracking
+- Goal setting
+- SMS/Email alerts
+
+**Success Criteria:**
+- ✅ All data persists in JSON
+- ✅ CRUD operations work
+- ✅ No data loss on errors
+- ✅ Backup system functional
+- ✅ Reports are accurate
+
+### 📊 Practice Exercises
+1. Log file analyzer
+2. CSV to JSON converter
+3. Contact book with file storage
+4. Note-taking app with save/load
+5. Configuration file manager
+
+### 🏆 Completion Reward
+- **+250 XP**
+- **Total XP:** 1,850
+- **Unlock:** Day 11
+
+---
+
+## 🎨 Day 11: OOP Part 1 - Classes & Objects
+**Level:** Expert | **XP Reward:** 250 | **Status:** 🔒 Locked
+
+### 🎯 Learning Objectives
+- Understand OOP paradigm
+- Create classes and objects
+- Use constructors and methods
+- Implement inheritance
+- Apply polymorphism
+
+### 📚 Topics Covered
+1. **Class Basics:**
+   - Class definition (`class` keyword)
+   - Attributes (data)
+   - Methods (functions)
+   - `self` parameter
+
+2. **Constructor:**
+   - `__init__()` method
+   - Initializing attributes
+   - Default parameters
+
+3. **Inheritance:**
+   - Single inheritance
+   - Multiple inheritance
+   - Multilevel inheritance
+   - Hierarchical inheritance
+   - `super()` function
+
+4. **Polymorphism:**
+   - Method overriding
+   - Method overloading (via default args)
+   - Duck typing
+
+5. **Magic Methods:**
+   - `__str__()` - string representation
+   - `__repr__()` - official representation
+   - `__len__()` - length
+   - `__add__()` - addition operator
+   - `__eq__()` - equality comparison
+
+### 💡 Daily Challenges
+- [ ] Create at least 3 classes
+- [ ] Implement all types of inheritance
+- [ ] Override methods in child classes
+- [ ] Use at least 5 magic methods
+- [ ] Create object hierarchies
+
+### 🛠️ Project: **Library Management System**
+**Difficulty:** ⭐⭐⭐⭐⭐ Expert | **Time:** 150-180 minutes
+
+**Objective:** Build a complete OOP-based library system with multiple classes.
+
+**Requirements:**
+```python
+# Class Structure:
+
+1. Person (Base Class):
+   - Attributes: name, email, phone, address
+   - Methods: display_info(), update_info()
+
+2. Member (Inherits Person):
+   - Additional: member_id, join_date, membership_type
+   - Methods: borrow_book(), return_book(), view_history()
+
+3. Librarian (Inherits Person):
+   - Additional: employee_id, salary, shift
+   - Methods: add_book(), remove_book(), issue_book()
+
+4. Book:
+   - Attributes: book_id, title, author, isbn, category, copies, available_copies
+   - Methods: check_availability(), __str__(), __repr__()
+
+5. Transaction:
+   - Attributes: transaction_id, book_id, member_id, issue_date, due_date, return_date, fine
+   - Methods: calculate_fine(), is_overdue(), __str__()
+
+6. Library (Main System):
+   - Attributes: name, books[], members[], transactions[]
+   - Methods: 
+     * add_member(), remove_member()
+     * add_book(), remove_book(), search_book()
+     * issue_book(), return_book()
+     * generate_reports()
+
+# Features to Implement:
+
+1. Book Management:
+   - Add new book (auto-generate ID)
+   - Remove book
+   - Search by title/author/ISBN/category
+   - Update book details
+   - Track available copies
+
+2. Member Management:
+   - Register new member
+   - Update member details
+   - View member history
+   - Membership renewal
+   - Different membership types (Standard, Premium, Student)
+
+3. Transaction System:
+   - Issue book (check availability)
+   - Return book
+   - Calculate fine (₹10/day after due date)
+   - View active transactions
+   - Transaction history
+
+4. Polymorphism Examples:
+   - Different membership types with different benefits
+   - Different fine calculations for member types
+   - Different book types (Regular, Reference, Digital)
+
+5. Magic Methods:
+   - __str__ for readable output
+   - __repr__ for debugging
+   - __eq__ to compare books/members
+   - __len__ for collection sizes
+
+6. Inheritance Hierarchy:
+   Person
+   ├── Member
+   │   ├── StandardMember
+   │   ├── PremiumMember
+   │   └── StudentMember
+   └── Librarian
+
+7. Reports & Analytics:
+   - Most borrowed books
+   - Active members
+   - Overdue books
+   - Fine collection
+   - Category-wise stats
+```
+
+**Bonus Features:**
+- Reservation system
+- Book recommendations
+- Email notifications
+- Multi-library support
+- Digital book integration
+
+**Success Criteria:**
+- ✅ All classes properly defined
+- ✅ Inheritance hierarchy correct
+- ✅ Polymorphism demonstrated
+- ✅ Magic methods working
+- ✅ Complete functionality
+
+### 📊 Practice Exercises
+1. Create a Vehicle hierarchy (Car, Bike, Truck)
+2. Build a Shape class with area calculations
+3. Employee management system
+4. Banking system with account types
+5. E-commerce product catalog
+
+### 🏆 Completion Reward
+- **+250 XP**
+- **Total XP:** 2,100
+- **Unlock:** Day 12
+
+---
+
+## 🔒 Day 12: OOP Part 2 - Encapsulation & Abstraction
+**Level:** Expert | **XP Reward:** 250 | **Status:** 🔒 Locked
+
+### 🎯 Learning Objectives
+- Implement encapsulation
+- Use access modifiers
+- Create abstract classes
+- Design with abstraction principles
+- Apply OOP best practices
+
+### 📚 Topics Covered
+1. **Encapsulation:**
+   - Data hiding
+   - Public attributes (normal)
+   - Protected attributes (_single underscore)
+   - Private attributes (__double underscore)
+   - Name mangling
+
+2. **Property Decorators:**
+   - `@property` - getter
+   - `@attribute.setter` - setter
+   - `@attribute.deleter` - deleter
+   - Read-only properties
+
+3. **Abstraction:**
+   - Abstract base classes (ABC)
+   - `@abstractmethod` decorator
+   - Interface concept
+   - Design by contract
+
+4. **Advanced Decorators:**
+   - `@staticmethod`
+   - `@classmethod`
+   - Custom decorators
+   - Decorator chaining
+
+5. **Design Principles:**
+   - Single Responsibility
+   - Open/Closed Principle
+   - Liskov Substitution
+   - Interface Segregation
+   - Dependency Inversion
+
+### 💡 Daily Challenges
+- [ ] Create private, protected, and public attributes
+- [ ] Use @property decorator
+- [ ] Build abstract base class
+- [ ] Implement static and class methods
+- [ ] Apply SOLID principles
+
+### 🛠️ Project: **E-Commerce Platform (OOP Edition)**
+**Difficulty:** ⭐⭐⭐⭐⭐ Expert | **Time:** 180-210 minutes
+
+**Objective:** Build a professional e-commerce system using advanced OOP concepts.
+
+**Requirements:**
+```python
+# Advanced Class Design:
+
+1. Abstract Base Classes:
+
+from abc import ABC, abstractmethod
+
+class PaymentMethod(ABC):
+    @abstractmethod
+    def process_payment(self, amount):
+        pass
+    
+    @abstractmethod
+    def refund(self, amount):
+        pass
+
+class CreditCard(PaymentMethod):
+    # Implementation with encryption
+
+class DebitCard(PaymentMethod):
+    # Implementation
+
+class UPI(PaymentMethod):
+    # Implementation
+
+class Wallet(PaymentMethod):
+    # Implementation
+
+2. Encapsulation Examples:
+
+class User:
+    def __init__(self, username, password):
+        self.__username = username  # Private
+        self.__password = self.__hash_password(password)  # Private
+        self._email = ""  # Protected
+        self.name = ""  # Public
+    
+    @property
+    def username(self):
+        return self.__username
+    
+    @property
+    def email(self):
+        return self._email
+    
+    @email.setter
+    def email(self, value):
+        if self.__validate_email(value):
+            self._email = value
+    
+    def __hash_password(self, password):
+        # Private method
+        pass
+
+3. Complete Class Structure:
+
+A. Product Management:
+   - Product (abstract base)
+   - Electronics (inheritance)
+   - Clothing (inheritance)
+   - Books (inheritance)
+   - Each with specific attributes
+
+B. User System:
+   - User (base)
+   - Customer (inheritance)
+   - Seller (inheritance)
+   - Admin (inheritance)
+
+C. Order System:
+   - Cart
+   - Order
+   - OrderItem
+   - Invoice
+
+D. Payment System:
+   - PaymentMethod (abstract)
+   - Multiple payment implementations
+
+E. Shipping System:
+   - ShippingMethod (abstract)
+   - Standard, Express, Overnight
+
+# Features:
+
+1. User Management:
+   - Registration (with validation)
+   - Login (password hashing)
+   - Profile management (encapsulated)
+   - Address management
+
+2. Product Catalog:
+   - Add/remove products (seller only)
+   - Search and filter
+   - Category management
+   - Inventory tracking (private)
+   - Price management (with getter/setter)
+
+3. Shopping:
+   - Add to cart
+   - Remove from cart
+   - Update quantity
+   - Apply coupons
+   - Calculate total (with taxes)
+
+4. Order Processing:
+   - Place order
+   - Order tracking
+   - Order history
+   - Cancel order
+   - Return/Refund
+
+5. Payment:
+   - Multiple payment methods
+   - Payment validation
+   - Transaction security
+   - Payment history
+
+6. Admin Panel:
+   - View all orders
+   - Manage users
+   - Generate reports
+   - Sales analytics
+
+7. Encapsulation Implementation:
+   - Private: passwords, payment details, internal calculations
+   - Protected: email, phone, order status
+   - Public: name, product title, descriptions
+
+8. Abstraction Examples:
+   - PaymentMethod interface
+   - ShippingMethod interface
+   - Notification interface (Email, SMS, Push)
+
+9. Decorators Used:
+   - @property for getters
+   - @attribute.setter for setters
+   - @staticmethod for utilities
+   - @classmethod for factory methods
+   - Custom @login_required decorator
+```
+
+**Bonus Features:**
+- Wishlist functionality
+- Product reviews and ratings
+- Recommendation engine
+- Loyalty points system
+- Multi-language support
+
+**Success Criteria:**
+- ✅ Proper encapsulation (public/protected/private)
+- ✅ Abstract classes implemented
+- ✅ Property decorators used
+- ✅ Static and class methods applied
+- ✅ SOLID principles followed
+
+### 📊 Practice Exercises
+1. ATM system with encapsulation
+2. Hospital management with abstraction
+3. University system with all OOP pillars
+4. Restaurant ordering system
+5. Hotel booking system
+
+### 🏆 Completion Reward
+- **+250 XP**
+- **Total XP:** 2,350
+- **Level Up:** Master! 🎉
+- **Unlock:** Day 13
+
+---
+
+### **LEVEL 5: MASTER** (Days 13-15)
+
+---
+
+## ⚡ Day 13: Functional Programming - Lambda & Beyond
+**Level:** Master | **XP Reward:** 200 | **Status:** 🔒 Locked
+
+### 🎯 Learning Objectives
+- Master lambda functions
+- Use map, filter, reduce
+- Write comprehensions
+- Create decorators
+- Understand functional paradigm
+
+### 📚 Topics Covered
+1. **Lambda Functions:**
+   - Syntax: `lambda args: expression`
+   - Use cases
+   - Limitations (single expression)
+
+2. **Built-in Functional Tools:**
+   - `map()` - apply function to all items
+   - `filter()` - filter items by condition
+   - `reduce()` - cumulative operations
+   - Combining map/filter/reduce
+
+3. **Comprehensions:**
+   - List: `[x for x in sequence]`
+   - Dict: `{k: v for k, v in items}`
+   - Set: `{x for x in sequence}`
+   - Nested comprehensions
+
+4. **Decorators:**
+   - Function decorators
+   - Class decorators
+   - Decorator with arguments
+   - `@wraps` from functools
+   - Chaining decorators
+
+5. **Advanced:**
+   - `*args` and `**kwargs`
+   - Closures
+   - First-class functions
+   - Higher-order functions
+
+### 💡 Daily Challenges
+- [ ] Write 10 lambda functions
+- [ ] Use map, filter, reduce together
+- [ ] Create 5 comprehensions
+- [ ] Build 3 decorators
+- [ ] Refactor code to functional style
+
+### 🛠️ Project: **Data Processing Pipeline**
+**Difficulty:** ⭐⭐⭐⭐ Advanced | **Time:** 120-150 minutes
+
+**Objective:** Build a data processing system using functional programming.
+
+**Requirements:**
+```python
+# Your Pipeline should include:
+
+1. Lambda Operations:
+   # Sample data processing
+   students = [
+       {'name': 'Alice', 'marks': 85, 'age': 20},
+       {'name': 'Bob', 'marks': 92, 'age': 22},
+       # ... more students
+   ]
+   
+   # Use lambdas for:
+   - Sorting by multiple criteria
+   - Filtering students
+   - Calculating grades
+   - Data transformations
+
+2. Map/Filter/Reduce Examples:
+   
+   # Filter: Get students with marks > 80
+   high_scorers = filter(lambda s: s['marks'] > 80, students)
+   
+   # Map: Extract names
+   names = map(lambda s: s['name'], students)
+   
+   # Reduce: Calculate average
+   from functools import reduce
+   avg = reduce(lambda a, b: a + b['marks'], students, 0) / len(students)
+
+3. Comprehension Challenges:
+   
+   # List comprehension with conditions
+   grades = [get_grade(s['marks']) for s in students if s['age'] >= 20]
+   
+   # Dict comprehension
+   name_marks = {s['name']: s['marks'] for s in students}
+   
+   # Nested comprehension
+   matrix_transpose = [[row[i] for row in matrix] for i in range(len(matrix[0]))]
+   
+   # Set comprehension
+   unique_grades = {get_grade(s['marks']) for s in students}
+
+4. Decorators to Build:
+   
+   @timer
+   def process_data():
+       # Times function execution
+   
+   @log_calls
+   def calculate():
+       # Logs function calls with arguments
+   
+   @validate_input
+   def add_student(name, marks):
+       # Validates input before processing
+   
+   @cache_result
+   def expensive_calculation(n):
+       # Caches results for repeated calls
+   
+   @retry(times=3)
+   def api_call():
+       # Retries on failure
+
+5. Complete Features:
+   
+   A. Data Import:
+      - Load from CSV using comprehensions
+      - Parse JSON data
+      - Handle missing values
+   
+   B. Data Cleaning:
+      - Remove duplicates (filter)
+      - Normalize data (map)
+      - Fill missing values
+      - Validate formats
+   
+   C. Data Transformation:
+      - Convert types
+      - Calculate derived fields
+      - Aggregate data
+      - Pivot tables
+   
+   D. Data Analysis:
+      - Statistical calculations
+      - Group by operations
+      - Filtering pipelines
+      - Sorting strategies
+   
+   E. Data Export:
+      - Format output
+      - Generate reports
+      - Export to CSV/JSON
+
+6. Pipeline Design:
+   
+   # Chained operations
+   result = (
+       load_data('students.csv')
+       | filter_valid_records
+       | normalize_marks
+       | calculate_grades
+       | sort_by_rank
+       | export_to_json
+   )
+```
+
+**Bonus Features:**
+- Parallel processing with map
+- Lazy evaluation
+- Generator expressions
+- Custom iterator classes
+
+**Success Criteria:**
+- ✅ 15+ lambda functions used
+- ✅ All functional tools applied
+- ✅ 10+ comprehensions
+- ✅ 5+ working decorators
+- ✅ Clean, functional code style
+
+### 📊 Practice Exercises
+1. Prime number generator with filter
+2. Fibonacci with memoization decorator
+3. String operations with map/lambda
+4. Matrix operations with comprehensions
+5. API wrapper with decorators
+
+### 🏆 Completion Reward
+- **+200 XP**
+- **Total XP:** 2,550
+- **Unlock:** Day 14
+
+---
+
+## 📦 Day 14: Modules & Packages - Code Organization
+**Level:** Master | **XP Reward:** 150 | **Status:** 🔒 Locked
+
+### 🎯 Learning Objectives
+- Create custom modules
+- Build packages
+- Import strategies
+- Use standard library
+- Manage dependencies
+
+### 📚 Topics Covered
+1. **Modules:**
+   - Single .py file
+   - Importing: `import`, `from...import`
+   - `if __name__ == "__main__":`
+   - Module search path
+
+2. **Packages:**
+   - Folder with `__init__.py`
+   - Subpackages
+   - Relative imports
+   - Package structure
+
+3. **Standard Library:**
+   - `random` - random numbers
+   - `datetime` - date/time operations
+   - `os` - operating system interface
+   - `sys` - system parameters
+   - `json` - JSON handling
+   - `math` - mathematical functions
+   - `re` - regular expressions
+
+4. **Third-Party Libraries:**
+   - `pip` package manager
+   - `requirements.txt`
+   - Virtual environments
+   - Popular libraries overview
+
+### 💡 Daily Challenges
+- [ ] Create 3 custom modules
+- [ ] Build a package with subpackages
+- [ ] Use 5 standard library modules
+- [ ] Import using different strategies
+- [ ] Organize a multi-file project
+
+### 🛠️ Project: **Utility Library Package**
+**Difficulty:** ⭐⭐⭐⭐ Advanced | **Time:** 120-150 minutes
+
+**Objective:** Create a comprehensive utility package with multiple modules.
+
+**Requirements:**
+```python
+# Package Structure:
+
+my_utils/
+│
+├── __init__.py
+├── math_utils/
+│   ├── __init__.py
+│   ├── calculator.py
+│   ├── statistics.py
+│   └── geometry.py
+│
+├── text_utils/
+│   ├── __init__.py
+│   ├── formatters.py
+│   ├── validators.py
+│   └── converters.py
+│
+├── file_utils/
+│   ├── __init__.py
+│   ├── readers.py
+│   ├── writers.py
+│   └── converters.py
+│
+├── data_utils/
+│   ├── __init__.py
+│   ├── cleaners.py
+│   ├── transformers.py
+│   └── analyzers.py
+│
+└── web_utils/
+    ├── __init__.py
+    ├── scrapers.py
+    ├── api_helpers.py
+    └── validators.py
+
+# Module Contents:
+
+1. math_utils/calculator.py:
+   - Basic operations
+   - Scientific calculations
+   - Unit conversions
+   - Currency converter
+
+2. math_utils/statistics.py:
+   - Mean, median, mode
+   - Standard deviation
+   - Percentiles
+   - Correlation
+
+3. math_utils/geometry.py:
+   - Area calculations
+   - Volume calculations
+   - Perimeter functions
+   - Coordinate geometry
+
+4. text_utils/formatters.py:
+   - Case converters
+   - Text alignment
+   - Number formatting
+   - Date formatting
+
+5. text_utils/validators.py:
+   - Email validator
+   - Phone validator
+   - URL validator
+   - Password strength checker
+
+6. text_utils/converters.py:
+   - Text to speech (placeholder)
+   - Caesar cipher
+   - Base64 encoding
+   - Hash generation
+
+7. file_utils/readers.py:
+   - Read text files
+   - Read CSV files
+   - Read JSON files
+   - Read Excel (using openpyxl)
+
+8. file_utils/writers.py:
+   - Write text files
+   - Write CSV files
+   - Write JSON files
+   - Append to files
+
+9. file_utils/converters.py:
+   - CSV to JSON
+   - JSON to CSV
+   - Excel to CSV
+   - Text to PDF (placeholder)
+
+10. data_utils/cleaners.py:
+    - Remove duplicates
+    - Handle missing values
+    - Normalize data
+    - Remove outliers
+
+11. data_utils/transformers.py:
+    - Data type conversions
+    - Scaling and normalization
+    - Feature engineering
+    - Data encoding
+
+12. data_utils/analyzers.py:
+    - Descriptive statistics
+    - Data profiling
+    - Correlation analysis
+    - Distribution analysis
+
+13. web_utils/validators.py:
+    - URL validator
+    - IP address validator
+    - Domain checker
+    - HTTP status checker
+
+# Usage Examples:
+
+from my_utils.math_utils import calculator
+from my_utils.text_utils import validators
+from my_utils.file_utils import readers
+
+# Calculate
+result = calculator.add(10, 20)
+
+# Validate
+is_valid = validators.validate_email("test@email.com")
+
+# Read file
+data = readers.read_json("data.json")
+
+# Each module should:
+- Have clear documentation
+- Include error handling
+- Provide examples
+- Have unit tests (bonus)
+```
+
+**Bonus Features:**
+- CLI interface for each utility
+- Configuration file support
+- Logging system
+- API documentation
+- PyPI package preparation
+
+**Success Criteria:**
+- ✅ All modules work independently
+- ✅ Package structure is correct
+- ✅ Imports work from anywhere
+- ✅ Well-documented functions
+- ✅ No circular dependencies
+
+### 📊 Practice Exercises
+1. Create math module with custom functions
+2. Build string utilities package
+3. Date/time helper module
+4. Configuration manager module
+5. Logger wrapper module
+
+### 🏆 Completion Reward
+- **+150 XP**
+- **Total XP:** 2,700
+- **Unlock:** Day 15 (Final Project)
+
+---
+
+## 🏦 Day 15: FINAL BOSS - Bank Management System
+**Level:** Master | **XP Reward:** 500 | **Status:** 🔒 Locked
+
+### 🎯 Ultimate Challenge
+Build a complete, professional Bank Management System integrating ALL concepts learned.
+
+### 📚 Concepts to Integrate
+✅ Variables & Data Types
+✅ Control Flow (if-elif-else, loops)
+✅ Data Structures (List, Dict, Set, Tuple)
+✅ Exception Handling
+✅ File Handling (JSON database)
+✅ OOP (Classes, Inheritance, Encapsulation)
+✅ Lambda & Functional Programming
+✅ Modules & Packages
+✅ Decorators
+
+### 💡 Pre-Project Checklist
+- [ ] Review all previous projects
+- [ ] Plan class hierarchy
+- [ ] Design database structure
+- [ ] Sketch user interface flow
+- [ ] List all features to implement
+
+### 🛠️ **FINAL PROJECT: Professional Bank Management System**
+**Difficulty:** ⭐⭐⭐⭐⭐ Master Level | **Time:** 240-300 minutes (4-5 hours)
+
+### **Requirements:**
+
+```python
+# PROJECT STRUCTURE:
+
+bank_system/
+│
+├── main.py                 # Entry point
+├── config.py              # Configuration
+├── database/
+│   ├── __init__.py
+│   ├── accounts.json      # Account data
+│   ├── transactions.json  # Transaction history
+│   └── backup/            # Backup files
+│
+├── models/
+│   ├── __init__.py
+│   ├── person.py          # Base Person class
+│   ├── account.py         # Account classes
+│   ├── customer.py        # Customer class
+│   └── transaction.py     # Transaction class
+│
+├── utils/
+│   ├── __init__.py
+│   ├── validators.py      # Input validation
+│   ├── generators.py      # ID/Account number generation
+│   ├── decorators.py      # Custom decorators
+│   └── helpers.py         # Helper functions
+│
+├── services/
+│   ├── __init__.py
+│   ├── account_service.py    # Account operations
+│   ├── transaction_service.py # Transaction operations
+│   └── report_service.py     # Reports & Analytics
+│
+└── ui/
+    ├── __init__.py
+    ├── menu.py            # Menu system
+    └── display.py         # Display formatters
+
+# CLASS HIERARCHY:
+
+1. Person (Base Class):
+   Attributes:
+   - name, email, phone, address, dob
+   
+   Methods:
+   - display_info()
+   - update_contact()
+   - validate_email()
+   - calculate_age()
+
+2. Customer (Inherits Person):
+   Attributes:
+   - customer_id (auto-generated)
+   - accounts (list of account objects)
+   - created_date
+   - status (active/inactive)
+   
+   Methods:
+   - open_account()
+   - close_account()
+   - view_all_accounts()
+   - get_total_balance()
+
+3. Account (Abstract Base):
+   Attributes:
+   - account_number (10-digit, auto-generated)
+   - customer_id
+   - balance (private)
+   - account_type
+   - created_date
+   - status
+   - minimum_balance
+   
+   Methods:
+   - deposit(amount)
+   - withdraw(amount)
+   - get_balance()
+   - check_minimum_balance()
+   - calculate_interest()
+   
+   Abstract Methods:
+   - apply_fees()
+   - get_benefits()
+
+4. SavingsAccount (Inherits Account):
+   Additional Attributes:
+   - interest_rate = 4%
+   - withdrawal_limit = 3 per month
+   - minimum_balance = 1000
+   
+   Overridden Methods:
+   - withdraw() with limit check
+   - apply_fees()
+   - calculate_interest()
+
+5. CurrentAccount (Inherits Account):
+   Additional Attributes:
+   - overdraft_limit = 50000
+   - minimum_balance = 5000
+   - monthly_fee = 100
+   
+   Overridden Methods:
+   - withdraw() with overdraft
+   - apply_fees()
+
+6. FixedDeposit (Inherits Account):
+   Additional Attributes:
+   - interest_rate = 7%
+   - lock_period (months)
+   - maturity_date
+   - penalty_rate = 2%
+   
+   Methods:
+   - calculate_maturity_amount()
+   - premature_withdrawal()
+
+7. Transaction:
+   Attributes:
+   - transaction_id (UUID)
+   - account_number
+   - type (deposit/withdrawal/transfer)
+   - amount
+   - timestamp
+   - balance_after
+   - description
+   
+   Methods:
+   - __str__()
+   - to_dict()
+   - validate()
+
+# FEATURES TO IMPLEMENT:
+
+1. Account Management:
+   ✓ Create new customer profile
+   ✓ Open account (Savings/Current/FD)
+   ✓ Account number auto-generation (format: XXXXNNNNNN)
+   ✓ Multiple accounts per customer
+   ✓ Update customer details
+   ✓ Close account (with balance check)
+   ✓ Account statement generation
+
+2. Banking Operations:
+   ✓ Deposit money (with limits)
+   ✓ Withdraw money (balance check, withdrawal limits)
+   ✓ Fund transfer between accounts
+   ✓ Check balance
+   ✓ Mini statement (last 10 transactions)
+   ✓ Full statement (date range)
+
+3. Transaction System:
+   ✓ Every operation recorded
+   ✓ Transaction ID generation
+   ✓ Timestamp tracking
+   ✓ Transaction history
+   ✓ Search transactions
+   ✓ Filter by type/date/amount
+
+4. Security Features:
+   ✓ PIN-based authentication
+   ✓ PIN encryption (hashing)
+   ✓ Failed login attempts tracking
+   ✓ Account lock after 3 failed attempts
+   ✓ Session timeout
+   ✓ Audit trail
+
+5. Validation & Error Handling:
+   ✓ Amount validation (positive, within limits)
+   ✓ Email format validation
+   ✓ Phone number validation (10 digits)
+   ✓ Age validation (18+ for account)
+   ✓ Duplicate prevention
+   ✓ Exception handling for all operations
+   ✓ Custom exceptions:
+      - InsufficientBalanceError
+      - InvalidAccountError
+      - TransactionLimitError
+      - AuthenticationError
+
+6. Data Persistence:
+   ✓ JSON file storage
+   ✓ Auto-save after each operation
+   ✓ Backup system (daily/manual)
+   ✓ Data restore from backup
+   ✓ Data integrity checks
+
+7. Reports & Analytics:
+   ✓ Total customers
+   ✓ Total accounts by type
+   ✓ Total deposits
+   ✓ Total withdrawals
+   ✓ Account-wise balance
+   ✓ Top 10 accounts by balance
+   ✓ Monthly transaction summary
+   ✓ Inactive accounts report
+   ✓ Interest calculations
+   ✓ Export reports to CSV
+
+8. Advanced Features:
+   ✓ Recurring deposits
+   ✓ Standing instructions
+   ✓ Loan management (basic)
+   ✓ Credit/Debit card linking
+   ✓ Cheque book request
+   ✓ Nomination facility
+
+9. Decorators to Use:
+   @login_required
+   @validate_amount
+   @log_transaction
+   @timer
+   @cache_balance
+
+10. Functional Programming:
+    - Use lambda for sorting/filtering
+    - Map for data transformations
+    - Filter for search operations
+    - List comprehensions for reports
+
+# USER INTERFACE:
+
+1. Main Menu:
+   ==========================================
+   🏦 PYTHON BANK MANAGEMENT SYSTEM
+   ==========================================
+   1. 👤 Customer Management
+   2. 💰 Account Operations
+   3. 💸 Transactions
+   4. 📊 Reports & Analytics
+   5. ⚙️  Settings
+   6. 🚪 Exit
+   ==========================================
+
+2. Customer Management:
+   - Register new customer
+   - View customer details
+   - Update customer info
+   - Search customer
+   - Delete customer
+
+3. Account Operations:
+   - Open new account
+   - Close account
+   - View account details
+   - Update account
+   - Change PIN
+
+4. Transactions:
+   - Deposit
