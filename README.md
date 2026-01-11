@@ -67,8 +67,8 @@
 - [x] Install Python 3.x successfully
 - [x] Set up VS Code with Python extension
 - [x] Run your first "Hello World" program
-- [ ] Create 5 variables using different naming conventions
-- [ ] Write comments explaining each variable
+- [x] Create 5 variables using different naming conventions
+- [x] Write comments explaining each variable
 
 ### 🛠️ Mini Project: **Personal Info Card**
 **Difficulty:** ⭐ Beginner | **Time:** 15-20 minutes
