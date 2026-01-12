@@ -10,9 +10,9 @@ A focused, no-noise roadmap to master Python step-by-step.
 * [x] Install Python
 * [x] Setup VS Code / IDE
 * [x] Run first program
-* [ ] Understand how Python executes code
-* [ ] Use comments properly
-* [ ] Follow naming conventions
+* [x] Understand how Python executes code
+* [x] Use comments properly
+* [x] Follow naming conventions
 
   * [ ] snake_case
   * [ ] camelCase
