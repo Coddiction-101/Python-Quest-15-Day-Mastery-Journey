@@ -25,11 +25,11 @@ A focused, no-noise roadmap to master Python step-by-step.
 * [ ] Variables and reassignment
 * [ ] Built-in types
 
-  * [ ] int
-  * [ ] float
-  * [ ] string
-  * [ ] boolean
-  * [ ] complex
+  * [x] int
+  * [x] float
+  * [x] string
+  * [x] boolean
+  * [x] complex
 * [ ] Type checking (`type()`)
 * [ ] Type conversion
 
