@@ -16,18 +16,18 @@ print("subtraction:", diff)
 print("multiplication:", prod)
 print("division:", div)
 
-<--- Write a small program that:
-Asks the user for two numbers (as strings).
-Converts them to float.
-Adds, subtracts, multiplies, and divides them.
-Prints each result with a descriptive message.
-Example interaction:
+# Write a small program that:
+# Asks the user for two numbers (as strings).
+# Converts them to float.
+# Adds, subtracts, multiplies, and divides them.
+# Prints each result with a descriptive message.
+# Example interaction:
 
 
-Enter first number: 10
-Enter second number: 3
-addition: 13.0
-subtraction: 7.0
-multiplication: 30.0
-division: 3.3333333333333335
---->
+# Enter first number: 10
+# Enter second number: 3
+# addition: 13.0
+# subtraction: 7.0
+# multiplication: 30.0
+# division: 3.3333333333333335
+
