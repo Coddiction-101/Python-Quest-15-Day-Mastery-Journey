@@ -22,7 +22,7 @@ print("division:", div)
 # Adds, subtracts, multiplies, and divides them.
 # Prints each result with a descriptive message.
 
---- 
+
 
 # Example interaction:
 # Enter first number: 10
@@ -32,4 +32,4 @@ print("division:", div)
 # multiplication: 30.0
 # division: 3.3333333333333335
 
---- 
+
