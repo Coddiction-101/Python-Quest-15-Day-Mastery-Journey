@@ -1,14 +1,3 @@
-Perfect — here’s the **same learning plan**, but now:
-
-* No gamification
-* No days
-* No XP / streaks / levels
-* Just a **clean, distraction-free syllabus**
-* Organized by **topic type**
-* With **checkboxes** for tracking
-* Ready to paste into a **GitHub README.md**
-
----
 
 # 🐍 Python Learning Roadmap — Clean Checklist
 
