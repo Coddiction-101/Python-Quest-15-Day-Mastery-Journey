@@ -14,9 +14,9 @@ A focused, no-noise roadmap to master Python step-by-step.
 * [x] Use comments properly
 * [x] Follow naming conventions
 
-  * [ ] snake_case
-  * [ ] camelCase
-  * [ ] PascalCase
+  * [x] snake_case
+  * [x] camelCase
+  * [x] PascalCase
 
 ---
 
