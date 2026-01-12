@@ -22,8 +22,8 @@ A focused, no-noise roadmap to master Python step-by-step.
 
 ## 2. Variables & Data Types
 
-* [ ] Variables and reassignment
-* [ ] Built-in types
+* [x] Variables and reassignment
+* [x] Built-in types
 
   * [x] int
   * [x] float
