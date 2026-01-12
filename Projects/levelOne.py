@@ -16,8 +16,8 @@ print("subtraction:", diff)
 print("multiplication:", prod)
 print("division:", div)
 
--Write a small program that:
--Asks the user for two numbers (as strings).
+<--- Write a small program that:
+Asks the user for two numbers (as strings).
 Converts them to float.
 Adds, subtracts, multiplies, and divides them.
 Prints each result with a descriptive message.
@@ -30,3 +30,4 @@ addition: 13.0
 subtraction: 7.0
 multiplication: 30.0
 division: 3.3333333333333335
+--->
