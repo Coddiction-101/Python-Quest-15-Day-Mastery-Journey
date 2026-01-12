@@ -21,9 +21,10 @@ print("division:", div)
 # Converts them to float.
 # Adds, subtracts, multiplies, and divides them.
 # Prints each result with a descriptive message.
+
+--- 
+
 # Example interaction:
-
-
 # Enter first number: 10
 # Enter second number: 3
 # addition: 13.0
