@@ -7,7 +7,7 @@ A focused, no-noise roadmap to master Python step-by-step.
 
 ## 1. Environment & Basics
 
-* [ ] Install Python
+* [x] Install Python
 * [ ] Setup VS Code / IDE
 * [ ] Run first program
 * [ ] Understand how Python executes code
