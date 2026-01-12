@@ -8,8 +8,8 @@ A focused, no-noise roadmap to master Python step-by-step.
 ## 1. Environment & Basics
 
 * [x] Install Python
-* [ ] Setup VS Code / IDE
-* [ ] Run first program
+* [x] Setup VS Code / IDE
+* [x] Run first program
 * [ ] Understand how Python executes code
 * [ ] Use comments properly
 * [ ] Follow naming conventions
