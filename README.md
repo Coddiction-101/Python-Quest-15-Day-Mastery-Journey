@@ -30,28 +30,28 @@ A focused, no-noise roadmap to master Python step-by-step.
   * [x] string
   * [x] boolean
   * [x] complex
-* [ ] Type checking (`type()`)
-* [ ] Type conversion
+* [x] Type checking (`type()`)
+* [x] Type conversion
 
-  * [ ] int()
-  * [ ] float()
-  * [ ] str()
+  * [x] int()
+  * [x] float()
+  * [x] str()
 
 ---
 
 ## 3. Operators
 
-* [ ] Arithmetic operators
-* [ ] Assignment operators
-* [ ] Comparison operators
-* [ ] Logical operators
-* [ ] Operator precedence
+* [x] Arithmetic operators
+* [x] Assignment operators
+* [x] Comparison operators
+* [x] Logical operators
+* [x] Operator precedence
 
 ---
 
 ## 4. Input & Output
 
-* [ ] `input()` usage
+* [x] `input()` usage
 * [ ] Typecasting user input
 * [ ] `print()` formatting
 
