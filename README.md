@@ -52,11 +52,11 @@ A focused, no-noise roadmap to master Python step-by-step.
 ## 4. Input & Output
 
 * [x] `input()` usage
-* [ ] Typecasting user input
-* [ ] `print()` formatting
+* [x] Typecasting user input
+* [x] `print()` formatting
 
-  * [ ] f-strings
-  * [ ] `.format()`
+  * [x] f-strings
+  * [x] `.format()`
 
 ---
 
